@@ -22,4 +22,8 @@ class Test_Allure:
     def test_002(self):
         assert 1
 
+    def test_003(self):
+        print("吃")
+        allure.attach("再来一遍", "我就试一下，这是什么意思")
+
 
